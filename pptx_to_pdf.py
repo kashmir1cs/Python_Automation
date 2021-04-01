@@ -18,9 +18,8 @@ import comtypes.client
 import time
 init_time=time.time()
 
-folder="D:/01_VDC 업무/혁신협의체자료/"
-sub_folder=['9월3주차_200917','10월1주차_201008','10월2주차_201014',
-            "10월3주차_201022","10월4주차_201029","11월4주차_201119","12월1주차_201203"]
+folder="D:/" #폴더명 지정
+sub_folder=[] #하위 폴더 지정
 #  Get file directories
 for i in sub_folder:
     print(folder+i)
