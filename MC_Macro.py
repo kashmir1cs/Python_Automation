@@ -32,12 +32,12 @@ def operate(kx,ky):
 
     if pya.pixelMatchesColor(1240,10,(204, 238, 255)):
 
-        print("KYPIPE 활성화 되어 있음")
+        print("Text1")
 
     else:
-        print("KYPIPE 비활성화")
+        print("Text2")
         pya.click(kx,ky)
-        print("KYPIPE 창 전환")
+        print("Text3")
 
 
 
@@ -94,7 +94,7 @@ def Inputinitiate(r,l):
 
 # Excel Data 복사하기
 def ExcelCopy(n,Ex,Ey):
-    print("엑셀창 활성화 확인")
+    print("창 활성화 ")
 
     if pya.pixelMatchesColor(44,29,(54,135,46)):
         print("활성화")
@@ -202,7 +202,7 @@ def solve():
 
 
 
-    print("해석완료")
+    print("Text5")
 
 
 
@@ -212,7 +212,7 @@ def solve():
 
 def savePIPE(Loop_name,num):
     #Data 불러오기
-    print("배관 해석 결과 저장시작")
+    print("결과 ")
     pya.click(622,35)
     t.sleep(2)
     pya.click(265, 73)
@@ -238,7 +238,7 @@ def savePIPE(Loop_name,num):
     pya.doubleClick(1230,242)
     pya.press('delete')
     t.sleep(0.3)
-    prefix = "RESULT_PIPE-"
+    prefix = "TEXT5"
     if  num<10:
         fix = "000"
 
